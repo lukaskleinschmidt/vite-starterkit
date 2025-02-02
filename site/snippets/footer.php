@@ -40,11 +40,9 @@
     </div>
   </footer>
 
-  <?= js([
-    'assets/js/prism.js',
-    'assets/js/lightbox.js',
-    'assets/js/index.js',
-    '@auto'
+  <?= vite([
+    'assets/js/app.js',
+    'assets/js/templates/{{ page.template }}.js',
   ]) ?>
 
 </body>

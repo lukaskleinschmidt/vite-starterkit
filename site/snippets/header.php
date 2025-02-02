@@ -33,11 +33,9 @@
     More Kirby helpers: https://getkirby.com/docs/reference/templates/helpers
   */
   ?>
-  <?= css([
-    'assets/css/prism.css',
-    'assets/css/lightbox.css',
-    'assets/css/index.css',
-    '@auto'
+  <?= vite([
+    'assets/css/app.css',
+    'assets/css/templates/{{ page.template }}.css',
   ]) ?>
 
   <?php
