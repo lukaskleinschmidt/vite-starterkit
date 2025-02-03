@@ -1,6 +1,6 @@
 # vite-starterkit
 
-This repository is based on the official [Kirby starterkit](https://getkirby.com/docs/guide/tour). However it [has been modified](https://github.com/getkirby/starterkit/compare/main...lukaskleinschmidt:vite-starterkit:main) to use `vite` for processing Kirbys frontend assets (CSS and JS) via the [kirby-laravel-vite plugin](https://github.com/lukaskleinschmidt/kirby-laravel-vite).
+This repository is based on the official [Kirby starterkit]([https://getkirby.com/docs/guide/tour](https://github.com/getkirby/starterkit). However it [has been modified](https://github.com/getkirby/starterkit/compare/main...lukaskleinschmidt:vite-starterkit:main) to use `vite` for processing Kirbys existing frontend assets (CSS and JS) via the [kirby-laravel-vite plugin](https://github.com/lukaskleinschmidt/kirby-laravel-vite).
 
 ## Installation
 
