@@ -10,3 +10,6 @@ This repository is based on the official [Kirby starterkit]([https://getkirby.co
 - **IMPORTANT:** Run `npm run build` once to initialize the necessary manifest file
 - Run `npm run dev` to start the Vite development server (including hot reloading)
 - Now you can edit the existing Kirby assets (in `assets/js` and `assets/css`) and Vite will register your changes and refresh your browser
+
+> [!NOTE]
+> You won't see your expected page when you open the URL that Vite reports in the console as `Local:   http://localhost:5173/`. This will only show a default page. If you want to see your Kirby page, you need to access it however you accessed your local Kirby installation before (e.g. via PHPs own serve command, Laravel Valet, MAMP/XAMP, etc.)
